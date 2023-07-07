@@ -8,7 +8,7 @@
 + LinkedIn: [Anastasiya Kavalenak](https://www.linkedin.com/mwlite/in/anastasiya-kavalenak-8928b2279)
 + GitHub: [brusnichkina](https://github.com/brusnichkina)
 ## ABOUT ME
-I am 30 years old, last years I worked as a head of pharmacy (networks of pharmacies "FloraPharm", "Belpharmacia"). This year I'm trying out a new area of development for myself. I am very assiduous, responsible, love to learning new things.
+I am 30 years old, last years I worked as a head of pharmacy (in pharmacy chains like "FloraPharm", "Belpharmacia"). This year I'm trying out a new area of development for myself. I am very assiduous, responsible, love to learning new things.
 ## SKILLS
 + HTML
 + CSS
