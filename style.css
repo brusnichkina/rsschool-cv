@@ -43,7 +43,7 @@ font-family: 'Raleway', sans-serif;
     transition: color 0.5s;
   }
   .section-item a:hover {
-    color: #4d2323;
+    color: #5c5454;
   }
   .main-container {
     display: flex;
@@ -62,7 +62,7 @@ font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
+    color: #474242;
   }
   .section-title-h1 {
     padding-left: 360px;
