@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="heart.ico">
+    <link rel="icon" href="fav.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
                         <li class="nav-item"><a href="#LANGUAGES" class="nav-link">LANGUAGES</a></li>
                     </ul>
                 </nav>
-                <img src="stasya.jpg" alt="Фото">
+                <img src="photo.jpg" alt="Фото">
                 <section class="section" id="ANASTASIYAKAVALENAK">
                     <h1 class="section-title-h1">ANASTASIYA KAVALENAK</h1>
             </section>
@@ -37,7 +37,6 @@
                 <h2 class="section-title">MY CONTACT INFO</h2>
 <ul>
     <li>adress: Belarus, Minsk city</li>
-    <li>phone: +375-29-193-70-31</li>
     <li>e-mail: bru_snichkina@icloud.com</li>
     <li>LinkedIn: <a href="https://www.linkedin.com/mwlite/in/anastasiya-kavalenak-8928b2279" class="text-decoration-none">Anastasiya Kavalenak</a></li>
     <li>GitHub: <a href="https://github.com/brusnichkina" class="text-decoration-none">brusnichkina</a></li>
@@ -60,19 +59,13 @@
                 <h2 class="section-title">CODE EXAMPLES</h2>
                 <pre>
                 <code>
-&lt;style&gt;
-    .background-black-50 {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    width: 200px;
-    height: 75px;
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid #9c27b0;
-    font-size: 22px;
-    }
-&lt;/style&gt;
-&lt;p class="background-black-50"&gt;Something New&lt;/p&gt;
+const buyBook = document.querySelectorAll('.button--click');
+buyBook.forEach(function (event) {
+    event.addEventListener("click", (e) => {
+        e.stopPropagation();
+        logInModal.classList.add('modal-log-in--active');
+    })
+});
                 </code>
                 </pre>
             </section>
@@ -106,9 +99,9 @@
                     </li>
                 </ul>
                 <ul>
-                    <li>RSSchool (in process)
+                    <li>RSSchool
                         <ul>
-                            <li>JavaScript Front-End (Stage 0)</li>
+                            <li><a href="https://app.rs.school/certificate/oy8snmnd" class="text-decoration-none">JavaScript Front-End (Stage 0) (June, 2023 - Oct, 2023)</a></li>
                         </ul>
                     </li>
                 </ul>
